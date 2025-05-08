@@ -25,12 +25,15 @@ Crear una simulación de combate entre criaturas, aplicando los conceptos aprend
 Proyecto_Final_Batalla_de_criaturas_Cohorte3/
 │
 ├── src/
-│   ├── modelo/          # Clases que definen las criaturas y sus atributos
-│   ├── estrategias/     # Definición de los comportamiento de las criaturas
-│   ├── sistema/         # Clases de menú y Lógica de la simulación de batalla
-│   └── main/            # Clase principal que ejecuta el juego
+│   ├── modelo/              # Clases que definen las criaturas y sus atributos
+│   ├── estrategias/         # Definición de los comportamientos de las criaturas
+│   ├── sistema/             # Clases de menú y lógica de la simulación de batalla
+│   └── main/                # Clase principal que ejecuta el juego
 │
-└── README.md            # Este archivo
+├── Guia_Colaboracion_Java_OOP.md      # Guía para colaborar en el proyecto con Java OOP
+├── README.md                          # Este archivo
+├── buenas_practicas_git_y_github.md  # Sugerencias de buenas prácticas con Git y GitHub
+└── diagrama_de_clase.png              # Imagen del diagrama de clases del proyecto
 ```
 
 ##  Tecnologías utilizadas
