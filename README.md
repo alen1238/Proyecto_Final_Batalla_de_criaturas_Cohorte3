@@ -17,7 +17,7 @@ Crear una simulación de combate entre criaturas, aplicando los conceptos aprend
 - El usuario puede seleccionar criaturas para un equipo de batalla.
 - Cada criatura posee atributos como nombre, vida, ataque y defensa.
 - Se desarrolla una batalla por turnos, donde cada criatura ataca a una del equipo rival.
-- La batalla termina cuando todas las criaturas de un equipo son derrotadas.
+- La batalla termina cuando una criatura es derrotada.
 
 ## 📁 Estructura del proyecto
 
@@ -26,8 +26,8 @@ Proyecto_Final_Batalla_de_criaturas_Cohorte3/
 │
 ├── src/
 │   ├── modelo/          # Clases que definen las criaturas y sus atributos
-│   ├── batalla/         # Lógica de la simulación de batalla
-│   ├── utils/           # Clases de utilidad
+│   ├── estrategias/     # Definición de los comportamiento de las criaturas
+│   ├── sistema/         # Clases de menú y Lógica de la simulación de batalla
 │   └── main/            # Clase principal que ejecuta el juego
 │
 └── README.md            # Este archivo
