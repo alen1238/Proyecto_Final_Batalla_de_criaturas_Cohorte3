@@ -53,7 +53,7 @@ Proyecto_Final_Batalla_de_criaturas_Cohorte3/
 
 ## 🤖🤖 Autores
 
-Este proyecto fue desarrollado por estudiantes de la **Cohorte 3 de Dev Senior**:
+Este proyecto fue desarrollado por estudiantes de la **Cohorte 3 de Dev Senior acompañados de su docente**:
 
 - [@alen1238](https://github.com/alen1238)
 
