@@ -54,9 +54,14 @@ public class Criatura {
         esquivaActiva = true;
     }
 
+    public void reducirEnergia(int resEnergia){
+        this.energia -= resEnergia;
+    }
+
     //getters
     public String getNombre(){return nombre;}
     public int getAtaque(){return ataque;}
     public int getVida(){return vida;}
     public int getDefensa(){return defensa;}
+    public int getEnergia(){return energia;}
 }
