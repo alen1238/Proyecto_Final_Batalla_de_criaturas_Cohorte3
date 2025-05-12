@@ -7,10 +7,11 @@ public class ComportamientoDiegoFrenetico implements EstrategiaBatalla{
 
         do {
 
-            int puntosAtaques = (int)(criatura.getEnergia() * 0.15);
+            int puntosAtaque = (int)(criatura.getEnergia() * 0.2);
+            // System.out.println((int)(criatura.getEnergia() * 0.2));
+            enemigo.reducirVida(puntosAtaque);
             System.out.println(criatura.getNombre() + " ataca frenéticamente a " + enemigo.getNombre());
-            criatura.reducirEnergia(criatura.getEnergia() - (int)(criatura.getEnergia() * 0.30));
-            enemigo.reducirVida(puntosAtaques);
+            criatura.reducirEnergia(25);
 
             //Por el ataque se baja la defensa
             int defensaMenos = 5 + (int)(Math.random()*5);
