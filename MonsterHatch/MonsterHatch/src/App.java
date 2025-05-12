@@ -5,12 +5,15 @@ public class App {
          * Cada criatura puede actuar con un comportamiento diferente: Agresivo, defensivo o evasivo
          */
 
-         Criatura bultie = new Criatura("bultie", 100, 20, 5, new ComportamientoAgresivo());
-         Criatura luminosa = new Criatura("luminosa", 100, 15, 10, new ComportamientoDefensivo());
+        Criatura bultie = new Criatura("bultie", 100, 20, 5, new ComportamientoAgresivo());
+        Criatura luminosa = new Criatura("luminosa", 100, 15, 10, new ComportamientoDefensivo());
 
-         System.out.println("Inicio de la batalla entre bultie y luminosa");
+        System.out.println("Inicio de la batalla entre bultie y luminosa");
         bultie.ejecutarAccion(luminosa);
         luminosa.ejecutarAccion(bultie);
-
+        
+        bultie.setEstrategia(new ComportamientoDiegoFrenetico());
+        System.out.println("Cambio de estrategia de bultie a frenético");
+        bultie.ejecutarAccion(luminosa);
     }
 }

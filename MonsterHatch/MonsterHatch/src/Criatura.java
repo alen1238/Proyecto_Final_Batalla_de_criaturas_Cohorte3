@@ -3,6 +3,7 @@ public class Criatura {
     private int vida;
     private int ataque;
     private int defensa;
+    private int energia;
     private boolean esquivaActiva;
     private EstrategiaBatalla estrategia;
 
@@ -13,6 +14,7 @@ public class Criatura {
         this.defensa = defensa;
         this.estrategia = estrategia;
         this.esquivaActiva = false;
+        this.energia = 100; // Energía inicial
     }
 
     public void setEstrategia(EstrategiaBatalla nuevaEstrategia){
@@ -38,12 +40,28 @@ public class Criatura {
         defensa += cantidad;
     }
 
+    public void reducirDefensa(int cantidad){
+
+        if((defensa - cantidad) < 0){
+            System.out.println(nombre + " Daño critico, defessa nula!");
+            defensa = 0;
+        }else{
+            defensa -= cantidad;
+        }
+    }
+
     public void activarEsquiva(){
         esquivaActiva = true;
+    }
+
+    public void reducirEnergia(int resEnergia){
+        this.energia -= resEnergia;
     }
 
     //getters
     public String getNombre(){return nombre;}
     public int getAtaque(){return ataque;}
     public int getVida(){return vida;}
+    public int getDefensa(){return defensa;}
+    public int getEnergia(){return energia;}
 }
