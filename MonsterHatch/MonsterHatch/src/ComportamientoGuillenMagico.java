@@ -1,8 +1,8 @@
-public class ComportamientoMagico implements EstrategiaBatalla{
+public class ComportamientoGuillenMagico implements EstrategiaBatalla{
     private int costeMana; //Valor para la cantida de mana necesaria por hechizo.
     private int poderMagico; //Daño que causa el hechizo lanzado.
 
-    public ComportamientoMagico(int costeMana, int poderMagico) {
+    public ComportamientoGuillenMagico(int costeMana, int poderMagico) {
         this.costeMana = costeMana;
         this.poderMagico = poderMagico;
     }

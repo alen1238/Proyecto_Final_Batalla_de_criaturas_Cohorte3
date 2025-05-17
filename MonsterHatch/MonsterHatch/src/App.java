@@ -8,8 +8,8 @@ public class App {
          Criatura bultie = new Criatura("bultie", 100, 20, 5, new ComportamientoAgresivo());
          Criatura luminosa = new Criatura("luminosa", 100, 15, 10, new ComportamientoDefensivo());
 
-         Criatura Frieren = new CriaturaMagica("Frieren", 50, 30, 8, new ComportamientoMagico(30, 20), 300);
-         Criatura Aura = new CriaturaMagica("Aura", 50, 10, 4, new ComportamientoMagico(20, 10), 100);
+         Criatura Frieren = new CriaturaMagica("Frieren", 50, 30, 8, new ComportamientoGuillenMagico(30, 20), 300);
+         Criatura Aura = new CriaturaMagica("Aura", 50, 10, 4, new ComportamientoGuillenMagico(20, 10), 100);
 
          System.out.println("\n===== INICIO DE LA SIMULACIÓN =====");
 
