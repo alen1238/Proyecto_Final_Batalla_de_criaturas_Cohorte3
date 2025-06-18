@@ -11,6 +11,7 @@ public class ComportamientoReflectivoeACQN implements EstrategiaBatalla {
             System.out.println(criatura.getNombre()+ "ha usado su escudo reflector, devolviendo los "+ enemigo.getAtaque()+ " puntos de daño a " + enemigo.getNombre());
         }else{
             int daño = criatura.getAtaque() + (int)(Math.random()*5);
+            System.out.println(criatura.getNombre() + " ataca a " + enemigo.getNombre() + " causando "+criatura.getAtaque()+ "puntos de daño");
         }
     }
 }
