@@ -5,6 +5,5 @@ public class ComportamientoDefensivo implements EstrategiaBatalla{
         criatura.aumentarDefensa(escudo);
         System.out.println(criatura.getNombre() + " refuerza su defensa aumentando su " +
         "escudo en " + escudo + " puntos");
-        System.out.println(criatura.getNombre()+ " tiene "+ criatura.getVida() +" puntos de vida");
     }
 }
