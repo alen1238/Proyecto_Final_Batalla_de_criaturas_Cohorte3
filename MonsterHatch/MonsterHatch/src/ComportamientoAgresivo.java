@@ -5,5 +5,6 @@ public class ComportamientoAgresivo implements EstrategiaBatalla{
         enemigo.reducirVida(daño);
         System.out.println(criatura.getNombre() + "ataca violentamente causando " + daño +
         " puntos de daño a " + enemigo.getNombre());
+        System.out.println(criatura.getNombre() +" tiene "+ criatura.getVida() +" puntos de vida");
     }
 }
