@@ -46,4 +46,5 @@ public class Criatura {
     public String getNombre(){return nombre;}
     public int getAtaque(){return ataque;}
     public int getVida(){return vida;}
+    public int ultimoDaño(){return ultimoDaño;}
 }
